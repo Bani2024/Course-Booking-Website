@@ -1,0 +1,112 @@
+/* Reset some default styles for cross-browser consistency */
+body,
+h1,
+h2,
+h3,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Apply a basic font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style headings */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+.h5,
+h5 {
+    font-size: 1.25rem;
+}
+
+/* Style paragraphs */
+p {
+    line-height: 1.6;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Style links */
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+}
+
+
+
+/*login form*/
+.login-form {
+    padding: 100px;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    /* Center the form horizontally */
+
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    margin-left: 12%;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    margin-left: 1%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}

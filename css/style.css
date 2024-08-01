@@ -1,0 +1,188 @@
+/* Reset some default styles for cross-browser consistency */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Apply a basic font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style headings */
+h1, h2, h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: normal;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #555;
+    padding-top: 12px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+        .navbar {
+            background-color: #002333;
+            padding: 11px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar .container {
+            width: 80%;
+            max-width: 1140px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar img {
+            height: 32px;
+        }
+
+        .navbar .navbar-buttons {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-buttons {
+            margin-right: auto;
+            margin-left: 2%;
+        }
+
+        .navbar .btn {
+            border-radius: 4px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #FF5722;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .navbar .btn:last-child {
+            margin-right: 0;
+        }
+
+        .navbar .btn:hover {
+            background-color: #ff7043;
+        }
+
+        .navbar .dropdown {
+            position: relative;
+        }
+
+        .navbar .dropdown-menu {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            display: none;
+            position: absolute;
+            top: 62px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .dropdown-menu a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            padding: 10px 20px;
+            margin-right: auto;
+        }
+
+        .navbar .dropdown-menu a:hover {
+            background-color: #eee;
+        }
+
+        .navbar .dropdown-menu i {
+            margin-right: 10px;
+        }
+
+        .navbar .dropdown-menu .dropdown-item {
+            padding: 10px 20px;
+        }
+
+        .navbar .dropdown-menu .dropdown-item:hover {
+            background-color: #eee;
+        }
+.username{
+    text-transform: capitalize;
+}
+
+
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 5px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #f24516; /* Set the color of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the color of the scrollbar track */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox supports a limited set of scrollbar customization */
+  * {
+    scrollbar-color: #f24516 #f1f1f1; /* Set the color of the scrollbar thumb and track */
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+  }
+  
+  /* For Microsoft Edge and IE */
+  /* Note: Edge and IE support a limited set of scrollbar customization */
+  * {
+    -ms-overflow-style: none; /* Hide the scrollbar */
+  }
+  
+  *::-ms-scrollbar-thumb {
+    background-color: #f24516; /* Set the color of the scrollbar thumb */
+  }
+  
+  *::-ms-scrollbar-track {
+    background-color: #f1f1f1; /* Set the color of the scrollbar track */
+  }
+
+
+
+
